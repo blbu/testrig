@@ -26,6 +26,6 @@ Next level
 ----------
 Why not save your command history each time?
 
-    (cat smallfile & (cat | tee -a smallfile)) | stdbuf ./242-prac-i
+    (cat testfile & (cat | tee -a testfile)) | stdbuf ./program
 
 Save your command history for the next session.
